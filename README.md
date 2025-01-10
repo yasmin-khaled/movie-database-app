@@ -1,6 +1,6 @@
 # Movie Database App
 
-![App Icon](movie-database-app/public/homeIcon.svg)
+![App Icon](movie-database-app/public/OMDBHome.svg)
 
 ## Overview
 
@@ -12,7 +12,7 @@ The Movie Database App is a React-based web application that allows users to sea
 - **View Movie Details**: Users can click on a movie to view detailed information about it.
 - **Top-Rated Movies**: The app displays a list of top-rated movies on the home page.
 - **Responsive Design**: The app is fully responsive and works on various screen sizes, including mobile, tablet, and desktop.
-- **Theme Switch**: Users can switch between light and dark themes.
+- **Theme Switch**: Users can switch between light and dark themes. (Still in progress)
 - **Language Switch**: Users can switch between English and Arabic languages.
 
 ## Components
@@ -52,31 +52,10 @@ The Movie Database App is a React-based web application that allows users to sea
 - **OMDB API**: An API for fetching movie data.
 
 ## Project Structure
-movie-database-app/ 
-	├── public/
-	│	├── homeIcon.svg  
-	├── src/
-	│	├── assets/ 
-	│	│ ├── homeIcon.svg 
-	│	│ ├── theme1.svg 
-	│	│ └── languageIcon.svg 
-	├── components/ 
-	│ │ ├── Home.jsx 
-	│ │ ├── MovieDetails.jsx
-	│ │ ├── SearchBar.jsx
-	│ │ ├── SearchResults.jsx
-	│ │ └── Error.jsx
-	│ ├── stores/ 
-	│ │ ├── movieStore.js 
-	│ │ └── appConfigurationStore.js
-	│ ├── styles/ 
-	│ │ └── slider.css
-	│ ├── App.jsx 
-	│ ├── main.jsx 
-	│ └── i18n.js
-	├── index.html
-	└── README.md
-
+```
+movie-database-app/ ├── public/ │ ├── homeIcon.svg
+├── src/ │ ├── assets/ │ │ ├── homeIcon.svg │ │ ├── theme1.svg │ │ └── languageIcon.svg │ ├── components/ │ │ ├── Home.jsx │ │ ├── MovieDetails.jsx │ │ ├── SearchBar.jsx │ │ ├── SearchResults.jsx │ │ └── Error.jsx │ ├── stores/ │ │ ├── movieStore.js │ │ └── appConfigurationStore.js │ ├── styles/ │ │ └── slider.css │ ├── App.jsx │ ├── main.jsx │ └── i18n.js ├── index.html └── README.md
+```
 
 ## Getting Started
 
