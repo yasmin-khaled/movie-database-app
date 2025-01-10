@@ -2,7 +2,7 @@ import { create } from "zustand";
 import axios from "axios";
 
 const apiKey = "2949afbe";
-const baseUrl = "http://www.omdbapi.com/";
+const baseUrl = "https://www.omdbapi.com/";
 
 const useMovieStore = create((set) => ({
   query: "",
