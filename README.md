@@ -64,11 +64,6 @@ The Movie Database App is a React-based web application that allows users to sea
 - [React Router](https://reactrouter.com/) for handling client-side routing.
 - [Jest](https://jestjs.io/) for testing.
 
-## Third-Party Libraries and Technologies Used
-
-- **Vite**: A build tool that provides a fast development server and optimized build.
-- **OMDB API**: An API for fetching movie data.
-
 ## Project Structure
 ```
 movie-database-app/ 
