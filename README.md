@@ -53,10 +53,31 @@ The Movie Database App is a React-based web application that allows users to sea
 
 ## Project Structure
 ```
-movie-database-app/ ├── public/ │ ├── homeIcon.svg
-├── src/ │ ├── assets/ │ │ ├── homeIcon.svg │ │ ├── theme1.svg │ │ └── languageIcon.svg │ ├── components/ │ │ ├── Home.jsx │ │ ├── MovieDetails.jsx │ │ ├── SearchBar.jsx │ │ ├── SearchResults.jsx │ │ └── Error.jsx │ ├── stores/ │ │ ├── movieStore.js │ │ └── appConfigurationStore.js │ ├── styles/ │ │ └── slider.css │ ├── App.jsx │ ├── main.jsx │ └── i18n.js ├── index.html └── README.md
+movie-database-app/ 
+	├── public/
+	│	├── homeIcon.svg  
+	├── src/
+	│	├── assets/ 
+	│	│ ├── homeIcon.svg 
+	│	│ ├── theme1.svg 
+	│	│ └── languageIcon.svg 
+	├── components/ 
+	│ │ ├── Home.jsx 
+	│ │ ├── MovieDetails.jsx
+	│ │ ├── SearchBar.jsx
+	│ │ ├── SearchResults.jsx
+	│ │ └── Error.jsx
+	│ ├── stores/ 
+	│ │ ├── movieStore.js 
+	│ │ └── appConfigurationStore.js
+	│ ├── styles/ 
+	│ │ └── slider.css
+	│ ├── App.jsx 
+	│ ├── main.jsx 
+	│ └── i18n.js
+	├── index.html
+	└── README.md
 ```
-
 ## Getting Started
 
 ### Prerequisites
