@@ -70,7 +70,16 @@ The Movie Database App is a React-based web application that allows users to sea
 ```
 movie-database-app/ 
 	├── public/
-	│	├── homeIcon.svg  
+	│	├── homeIcon.svg 
+	├── docs/ 
+	│	├──  HomePage.png
+	│	├──  SearchResults.png
+	│	├──  MovieDetails.png
+	│	├──  Localization-SocialMediaIcons.png
+	│	├──  EmptySearch.png
+	│	├──  NotFoundSearch.png
+	│	├──  NetworkErrors.png
+	│	├──  APIErrors.png	
 	├── src/
 	│	├── assets/ 
 	│	│ ├── homeIcon.svg 
