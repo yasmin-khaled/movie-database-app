@@ -53,13 +53,16 @@ The Movie Database App is a React-based web application that allows users to sea
 
 ## Project Dependencies
 
-- **React**: A JavaScript library for building user interfaces.
-- **React Router**: A library for routing in React applications.
-- **Zustand**: A small, fast, and scalable state management library.
-- **Axios**: A promise-based HTTP client for making API requests.
-- **Tailwind CSS**: A utility-first CSS framework for styling.
-- **Font Awesome**: A library for scalable vector icons.
-- **i18next**: An internationalization framework for React.
+- [React](https://react.dev/) a JavaScript library for building user interfaces.
+- [OMDB API](https://www.omdbapi.com/) for providing movie data.
+- [Vite](https://vitejs.dev/) for the development server and build tool.
+- [Zustand](https://zustand-demo.pmnd.rs/) for state management.
+- [Tailwind CSS](https://tailwindcss.com/) for styling.
+- [Font Awesome](https://fontawesome.com/) for icons.
+- [i18next](https://www.i18next.com/) for internationalization.
+- [Axios](https://axios-http.com/) for making HTTP requests.
+- [React Router](https://reactrouter.com/) for handling client-side routing.
+- [Jest](https://jestjs.io/) for testing.
 
 ## Third-Party Libraries and Technologies Used
 
@@ -136,13 +139,4 @@ License
 
 ## Acknowledgements
 
-- [OMDB API](https://www.omdbapi.com/) for providing movie data.
-- [Vite](https://vitejs.dev/) for the development server and build tool.
-- [Zustand](https://zustand-demo.pmnd.rs/) for state management.
-- [Tailwind CSS](https://tailwindcss.com/) for styling.
-- [Font Awesome](https://fontawesome.com/) for icons.
 - [Icon Finder](https://www.iconfinder.com/) for icons.
-- [i18next](https://www.i18next.com/) for internationalization.
-- [Axios](https://axios-http.com/) for making HTTP requests.
-- [React Router](https://reactrouter.com/) for handling client-side routing.
-- [Jest](https://jestjs.io/) for testing.
