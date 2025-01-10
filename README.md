@@ -10,13 +10,13 @@ The Movie Database App is a React-based web application that allows users to sea
 
 - **Search Movies**: Users can search for movies by typing a query in the search bar.
 - **View Movie Details**: Users can click on a movie to view detailed information about it.
-- **Top-Rated Movies**: The app displays a list of top-rated movies on the home page.
-- **Responsive Design**: The app is fully responsive and works on various screen sizes, including mobile, tablet, and desktop.
+- **Slide Show**: The app displays a list of movies on the home page.
 - **Language Switch**: Users can switch between English and Arabic languages.
 
 ## In Progress
 - **Pagination**.
 - **Sort Search Results**.
+- **Enhance Responsiveness**.
 - **Theme Switch**: Users can switch between light and dark themes.
 - **Unit Tests**: Unit tests will be added to test the whole application.
 
@@ -35,7 +35,7 @@ The Movie Database App is a React-based web application that allows users to sea
 ## Components
 
 ### Home
-- Displays a slider of top-rated movies.
+- Displays a slider of movies.
 - Each movie in the slider is clickable and navigates to the movie details page.
 
 ### MovieDetails
