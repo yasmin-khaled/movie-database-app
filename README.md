@@ -15,6 +15,7 @@ The Movie Database App is a React-based web application that allows users to sea
 - **Language Switch**: Users can switch between English and Arabic languages.
 
 ## In Progress
+- **Pagination**.
 - **Theme Switch**: Users can switch between light and dark themes.
 - **Unit Tests**: Unit tests will be added to test the whole application.
 
