@@ -37,7 +37,7 @@ const MovieDetails = () => {
   if (!movie) return <div>{t("loading")}</div>;
 
   return (
-    <div className="bg-teal-950 text-white max-w-3xl mx-auto mt-8 p-4 border rounded shadow-lg hover:shadow-rose-200 transition-transform duration-500 transform hover:scale-105">
+    <div className="bg-teal-950 text-white max-w-3xl mx-auto mt-20 p-4 border rounded shadow-lg hover:shadow-rose-200 transition-transform duration-500 transform hover:scale-105">
       <h2 className="text-2xl font-bold mb-4 text-center md:text-left">
         {movie.Title}
       </h2>
