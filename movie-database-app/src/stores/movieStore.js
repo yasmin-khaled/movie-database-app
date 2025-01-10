@@ -13,6 +13,7 @@ const useMovieStore = create((set) => ({
   setError: (newError) => set({ error: newError }),
   
   fetchMovies: async (query) => {
+    set({ error: null, movies: [] });
     if (!query) return false;
     try {
       const response = await axios.get(baseUrl, {

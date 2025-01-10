@@ -14,16 +14,18 @@ const ErrorPage = () => {
     let retryInterval;
 
     if (error) {
-      retryInterval = setInterval(async () => {
-        const success = await retryFetch();
-        if (success) {
-          error = useMovieStore.getState().error;
-          clearInterval(retryInterval);
-          if(!error) {
-            navigate("/");
+      if(error.toLowerCase().includes("network")) {
+        retryInterval = setInterval(async () => {
+          const success = await retryFetch();
+          if (success) {
+            error = useMovieStore.getState().error;
+            clearInterval(retryInterval);
+            if(!error) {
+              navigate("/");
+            }
           }
-        }
-      }, 10000);
+        }, 10000);
+      }
     } else {
       navigate("/");
     }

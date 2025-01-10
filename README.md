@@ -12,8 +12,11 @@ The Movie Database App is a React-based web application that allows users to sea
 - **View Movie Details**: Users can click on a movie to view detailed information about it.
 - **Top-Rated Movies**: The app displays a list of top-rated movies on the home page.
 - **Responsive Design**: The app is fully responsive and works on various screen sizes, including mobile, tablet, and desktop.
-- **Theme Switch**: Users can switch between light and dark themes. (Still in progress)
 - **Language Switch**: Users can switch between English and Arabic languages.
+
+## In Progress
+- **Theme Switch**: Users can switch between light and dark themes.
+- **Unit Tests**: Unit tests will be added to test the whole application.
 
 ## Components
 
@@ -116,4 +119,19 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - [Zustand](https://zustand-demo.pmnd.rs/) for state management.
 - [Tailwind CSS](https://tailwindcss.com/) for styling.
 - [Font Awesome](https://fontawesome.com/) for icons.
+- [Icon Finder](https://www.iconfinder.com/) for icons.
 - [i18next](https://www.i18next.com/) for internationalization.
+- [Axios](https://axios-http.com/) for making HTTP requests.
+- [React Router](https://reactrouter.com/) for handling client-side routing.
+- [Jest](https://jestjs.io/) for testing.
+
+## Application
+
+![App Screenshot](movie-database-app/public/HomePage.png)
+![App Screenshot](movie-database-app/public/SearchResults.png)
+![App Screenshot](movie-database-app/public/MovieDetails.png)
+![App Screenshot](movie-database-app/public/Localization-SocialMediaIcons.png)
+![App Screenshot](movie-database-app/public/EmptySearch.png)
+![App Screenshot](movie-database-app/public/NotFoundSearch.png)
+![App Screenshot](movie-database-app/public/NetworkErrors.png)
+![App Screenshot](movie-database-app/public/APIErrors.png)
