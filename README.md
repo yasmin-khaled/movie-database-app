@@ -18,6 +18,18 @@ The Movie Database App is a React-based web application that allows users to sea
 - **Theme Switch**: Users can switch between light and dark themes.
 - **Unit Tests**: Unit tests will be added to test the whole application.
 
+
+## Application
+
+![App Screenshot](movie-database-app/docs/HomePage.png)
+![App Screenshot](movie-database-app/docs/SearchResults.png)
+![App Screenshot](movie-database-app/docs/MovieDetails.png)
+![App Screenshot](movie-database-app/docs/Localization-SocialMediaIcons.png)
+![App Screenshot](movie-database-app/docs/EmptySearch.png)
+![App Screenshot](movie-database-app/docs/NotFoundSearch.png)
+![App Screenshot](movie-database-app/docs/NetworkErrors.png)
+![App Screenshot](movie-database-app/docs/APIErrors.png)
+
 ## Components
 
 ### Home
@@ -124,14 +136,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - [Axios](https://axios-http.com/) for making HTTP requests.
 - [React Router](https://reactrouter.com/) for handling client-side routing.
 - [Jest](https://jestjs.io/) for testing.
-
-## Application
-
-![App Screenshot](movie-database-app/docs/HomePage.png)
-![App Screenshot](movie-database-app/docs/SearchResults.png)
-![App Screenshot](movie-database-app/docs/MovieDetails.png)
-![App Screenshot](movie-database-app/docs/Localization-SocialMediaIcons.png)
-![App Screenshot](movie-database-app/docs/EmptySearch.png)
-![App Screenshot](movie-database-app/docs/NotFoundSearch.png)
-![App Screenshot](movie-database-app/docs/NetworkErrors.png)
-![App Screenshot](movie-database-app/docs/APIErrors.png)
