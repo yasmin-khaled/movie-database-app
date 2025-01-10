@@ -127,11 +127,11 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Application
 
-![App Screenshot](movie-database-app/public/HomePage.png)
-![App Screenshot](movie-database-app/public/SearchResults.png)
-![App Screenshot](movie-database-app/public/MovieDetails.png)
-![App Screenshot](movie-database-app/public/Localization-SocialMediaIcons.png)
-![App Screenshot](movie-database-app/public/EmptySearch.png)
-![App Screenshot](movie-database-app/public/NotFoundSearch.png)
-![App Screenshot](movie-database-app/public/NetworkErrors.png)
-![App Screenshot](movie-database-app/public/APIErrors.png)
+![App Screenshot](movie-database-app/docs/HomePage.png)
+![App Screenshot](movie-database-app/docs/SearchResults.png)
+![App Screenshot](movie-database-app/docs/MovieDetails.png)
+![App Screenshot](movie-database-app/docs/Localization-SocialMediaIcons.png)
+![App Screenshot](movie-database-app/docs/EmptySearch.png)
+![App Screenshot](movie-database-app/docs/NotFoundSearch.png)
+![App Screenshot](movie-database-app/docs/NetworkErrors.png)
+![App Screenshot](movie-database-app/docs/APIErrors.png)
