@@ -1,6 +1,6 @@
 # Movie Database App
 
-![App Icon](public/homeIcon.svg)
+![App Icon](movie-database-app/public/homeIcon.svg)
 
 ## Overview
 
@@ -52,7 +52,30 @@ The Movie Database App is a React-based web application that allows users to sea
 - **OMDB API**: An API for fetching movie data.
 
 ## Project Structure
-movie-database-app/ ├── public/ │ ├── homeIcon.svg │ └── ... ├── src/ │ ├── assets/ │ │ ├── homeIcon.svg │ │ ├── theme1.svg │ │ └── languageIcon.svg │ ├── components/ │ │ ├── Home.jsx │ │ ├── MovieDetails.jsx │ │ ├── SearchBar.jsx │ │ ├── SearchResults.jsx │ │ └── Error.jsx │ ├── stores/ │ │ ├── movieStore.js │ │ └── appConfigurationStore.js │ ├── styles/ │ │ └── slider.css │ ├── App.jsx │ ├── main.jsx │ └── i18n.js ├── index.html └── README.md
+movie-database-app/ 
+	├── public/
+	│	├── homeIcon.svg  
+	├── src/
+	│	├── assets/ 
+	│	│ ├── homeIcon.svg 
+	│	│ ├── theme1.svg 
+	│	│ └── languageIcon.svg 
+	├── components/ 
+	│ │ ├── Home.jsx 
+	│ │ ├── MovieDetails.jsx
+	│ │ ├── SearchBar.jsx
+	│ │ ├── SearchResults.jsx
+	│ │ └── Error.jsx
+	│ ├── stores/ 
+	│ │ ├── movieStore.js 
+	│ │ └── appConfigurationStore.js
+	│ ├── styles/ 
+	│ │ └── slider.css
+	│ ├── App.jsx 
+	│ ├── main.jsx 
+	│ └── i18n.js
+	├── index.html
+	└── README.md
 
 
 ## Getting Started
@@ -86,10 +109,11 @@ Building the App
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
-	- OMDB API for providing movie data.
-	- Vite for the development server and build tool.
-	- Zustand for state management.
-	- Tailwind CSS for styling.
-	- Font Awesome for icons.
-	- i18next for internationalization.
+## Acknowledgements
+
+- [OMDB API](https://www.omdbapi.com/) for providing movie data.
+- [Vite](https://vitejs.dev/) for the development server and build tool.
+- [Zustand](https://zustand-demo.pmnd.rs/) for state management.
+- [Tailwind CSS](https://tailwindcss.com/) for styling.
+- [Font Awesome](https://fontawesome.com/) for icons.
+- [i18next](https://www.i18next.com/) for internationalization.
