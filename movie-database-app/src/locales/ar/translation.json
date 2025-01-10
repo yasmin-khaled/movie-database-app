@@ -1,0 +1,19 @@
+{
+  "sign_in": "تسجيل الدخول",
+  "search": "ابحث",
+  "search_placeholder": "ابحث عن أفلام...",
+  "search_empty": "ابحث بكتابة إسم الفيلم في صندوق البحث",
+  "search_not_found": "غير موجود",
+  "retry_search": "جرب البحث عن فيلم آخر",
+  "view_details": "المزيد",
+  "loading": "جاري التحميل...",
+  "error": "خطأ",
+  "actors": "الممثلون",
+  "director": "المخرج",
+  "genre": "النوع",
+  "plot": "القصة",
+  "imdb_rating": "تقييم IMDB",
+  "metascore": "التقييم الميتا",
+  "runtime": "مدة العرض",
+  "released": "تاريخ الإصدار"
+}

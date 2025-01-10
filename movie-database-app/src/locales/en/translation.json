@@ -1,0 +1,19 @@
+{
+  "sign_in": "Sign In",
+  "search": "Search",
+  "search_placeholder": "Search OMDB",
+  "search_empty": "Search OMDB by typing a word or phrase in the search box at the top of this page.",
+  "search_not_found": "No Results Found",
+  "retry_search": "Please try searching for a different title.",
+  "view_details": "View Details",
+  "loading": "Loading...",
+  "error": "Error!",
+  "actors": "Actors",
+  "director": "Director",
+  "genre": "Genre",
+  "plot": "Plot",
+  "imdb_rating": "IMDB Rating",
+  "metascore": "Metascore",
+  "runtime": "Runtime",
+  "released": "Released"
+}

@@ -6,15 +6,25 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
+
+.theme-icon {
+  height: 2em;
+  margin-left: 20px;
+  will-change: filter;
+}
+
+.language-icon {
+  height: 1.5em;
+  will-change: filter;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
+.logo.moviesDB:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
@@ -39,4 +49,18 @@
 
 .read-the-docs {
   color: #888;
+}
+
+  @media (max-width: 777px) {
+  .logo {
+    height: 5em;
+    padding: 1em;
+  }
+} 
+
+@media (min-width: 768px) {
+  .logo {
+    height: 7em;
+    padding: 1.5em;
+  }
 }
