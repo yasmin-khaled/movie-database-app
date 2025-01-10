@@ -120,7 +120,7 @@ Building the App
       npm run build
    2. Serve the production build:
       npm run server
-
+   
 License
    This project is licensed under the MIT License. See the LICENSE file for details.
 
