@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import useAppConfigurationStore from "../stores/appConfigurationStore";
@@ -10,8 +10,10 @@ const SearchBar = () => {
   const error = useMovieStore((state) => state.error);
   const fetchMovies = useMovieStore((state) => state.fetchMovies);
   const setHideFlag = useAppConfigurationStore((state) => state.setHideFlag);
+  const hideFlag = useAppConfigurationStore((state) => state.hideFlag);
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const [prevWidth, setPrevWidth] = useState(window.innerWidth);
 
   const handleNavigate = () => {
     navigate(`/search-results/${query}`);
@@ -33,6 +35,43 @@ const SearchBar = () => {
       navigate(`/error`);
     }
   }, [error, navigate]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const currentWidth = window.innerWidth;
+      const isIncreasing = currentWidth > prevWidth;
+      setPrevWidth(currentWidth);
+      
+      if (window.innerWidth > 768) {
+        const hideInputElement = document.querySelector('.hide-input');
+        const inputElement = document.querySelector('.search-input');
+        hideInputElement.style.display = 'none';
+        setHideFlag(false);
+        inputElement.style.display = 'block';
+      } else{
+        const inputElement = document.querySelector('.search-input');
+        const hideInputElement = document.querySelector('.hide-input');
+        const isInputHidden = window.getComputedStyle(inputElement).display === 'none';
+        inputElement.style.display = 'none';
+        if(!isInputHidden && hideFlag){
+          inputElement.style.display = 'block';
+          setHideFlag(true);
+        }
+        else if(!hideFlag){
+          hideInputElement.style.display = 'none';
+          inputElement.style.display = 'none';
+          setHideFlag(false);
+        }
+      }
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [setHideFlag]);
 
   const handleButtonClick = () => {
     const inputElement = document.querySelector('.search-input');
