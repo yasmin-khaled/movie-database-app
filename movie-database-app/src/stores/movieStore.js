@@ -8,22 +8,30 @@ const useMovieStore = create((set) => ({
   query: "",
   movies: [],
   error: null,
+  currentPage: 1,
+  totalResults: 0,
 
   setQuery: (newQuery) => set({ query: newQuery }),
   setError: (newError) => set({ error: newError }),
-  
-  fetchMovies: async (query) => {
-    set({ error: null, movies: [] });
+  setCurrentPage: (page) => set({ currentPage: page }),
+
+  fetchMovies: async (query, page = 1) => {
+    set({ error: null, movies: [], currentPage: page });
     if (!query) return false;
     try {
       const response = await axios.get(baseUrl, {
         params: {
           s: query,
           apiKey: apiKey,
+          page: page,
         },
       });
       if (response.data.Response === "True") {
-        set({ movies: response.data.Search, error: null });
+        set({
+          movies: response.data.Search,
+          error: null,
+          totalResults: parseInt(response.data.totalResults, 10),
+        });
         return true;
       } else {
         set({ error: response.data.Error, movies: [] });

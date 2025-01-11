@@ -15,5 +15,9 @@
   "imdb_rating": "تقييم IMDB",
   "metascore": "التقييم الميتا",
   "runtime": "مدة العرض",
-  "released": "تاريخ الإصدار"
+  "released": "تاريخ الإصدار",
+  "page": "الصفحة",
+  "next": "التالي",
+  "previous": "السابق",
+  "of": "من"
 }

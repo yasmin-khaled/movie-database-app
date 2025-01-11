@@ -15,5 +15,9 @@
   "imdb_rating": "IMDB Rating",
   "metascore": "Metascore",
   "runtime": "Runtime",
-  "released": "Released"
+  "released": "Released",
+  "page": "Page",
+  "next": "Next",
+  "previous": "Previous",
+  "of": "of"
 }

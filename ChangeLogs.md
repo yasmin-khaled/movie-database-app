@@ -16,3 +16,4 @@ Changes are mainly for setting up the project:
 14. Add a store for movies, and another one for app configuration.
 15. Add i18n for localization.
 16. Change App Icon.
+17. Adding Pagination.

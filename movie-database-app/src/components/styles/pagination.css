@@ -1,0 +1,3 @@
+.pagination-btn {
+    @apply px-4 py-2 mx-1 bg-teal-950 text-white rounded disabled:bg-lime-500;
+}
